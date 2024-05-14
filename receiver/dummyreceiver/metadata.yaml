@@ -1,0 +1,6 @@
+type: dummy
+
+status:
+  class: receiver
+  stability:
+    development: [logs]

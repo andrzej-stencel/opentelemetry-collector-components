@@ -39,3 +39,4 @@ The resulting distro binary should be available as `./output/otelcol-example`:
 ```
 
 You should see the configured pipeline at <http://localhost:55679/debug/pipelinez> thanks to the zPages extension.
+You should also see a log record with the body "log body" spit out by the Debug exporter in the collector's console output.

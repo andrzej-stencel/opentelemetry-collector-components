@@ -1,11 +1,12 @@
 exporters:
   debug:
+    verbosity: detailed
 
 extensions:
   zpages:
 
 receivers:
-  nop:
+  dummy:
 
 service:
   extensions:
@@ -15,4 +16,4 @@ service:
       exporters:
         - debug
       receivers:
-        - nop
+        - dummy
